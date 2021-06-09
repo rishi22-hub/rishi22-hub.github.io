@@ -1,0 +1,42 @@
+*{  text-align: center;
+    
+    /* background-color: cyan; */
+    background-clip: border-box;
+    padding:0pt;
+     margin-left: auto;
+    margin-right: auto; 
+}
+.calci{
+    display: inline-table;
+    background-color:chartreuse;
+    border-radius: 10pt;
+}
+#tabl{
+    /* //height: 30px; */
+    width: 50%;
+    border-radius: 10pt;
+}
+td{
+    height: 30px;
+    width: 12.5%;
+}
+#scr{
+    font-size: 55px;
+}
+.c{
+    
+    width: 12.5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+button{
+    width: 50%;
+    background-color: crimson;
+
+}
+#disp{
+    width: 100%;
+}
+.d{  background-color: red;
+    width: 10%;
+}
