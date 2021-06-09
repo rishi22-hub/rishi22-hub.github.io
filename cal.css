@@ -22,6 +22,8 @@ td{
 }
 #scr{
     font-size: 55px;
+    border-radius: 10pt;
+    text-align: right;
 }
 .c{
     
@@ -32,6 +34,7 @@ td{
 button{
     width: 50%;
     background-color: crimson;
+    border-radius: 5pt;
 
 }
 #disp{
