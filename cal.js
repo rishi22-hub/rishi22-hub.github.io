@@ -35,6 +35,15 @@ for(items of buttons){
             disp1=display.value;
         }
         else if(buttontext==='backspace'){var str=disp1.slice(0,-1);disp1=str;display.value=disp1;}
+        else if(buttontext==='sin'){display.value='sin';
+     var x=prompt("enter angle");
+        display.value=Math.sin(x*Math.PI/180);disp1=display.value;}
+        else if(buttontext==='cos'){display.value='cos';
+        var x=prompt("enter angle");
+           display.value=Math.cos(x*Math.PI/180);disp1=display.value;}
+           else if(buttontext==='tan'){display.value='tan';
+           var x=prompt("enter angle");
+              display.value=Math.tan(x*Math.PI/180);disp1=display.value;}
         else {disp1+=buttontext;display.value=disp1;}
     }
     )
